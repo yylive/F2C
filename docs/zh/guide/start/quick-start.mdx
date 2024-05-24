@@ -1,0 +1,73 @@
+# 快速开始设计稿转代码
+
+## Figma插件安装和运行
+
+在开始使用前，你需要安装 [YY F2C在Figma侧的插件](https://www.figma.com/community/plugin/1248187540929489451/yy-f2c)
+
+> 需要注意的是，你需要对你目标Figma文档有**编辑权限**，若没有则可能找不到Plugins选项；并且请保证你的Figma是在**设计模式**下，开关如下图所示 ↓
+
+![设计模式开关](https://hd-static.yystatic.com/8342535838666958.png)
+
+你可以在Figma桌面应用和Web Fimga来安装插件，以下是安装插件的简要步骤：
+
+1. 点击左上方的**Figma图标**，选择**Plugins**，再选择 **Find more plugins...** 打开插件市场搜索框
+![figma打开插件](https://hd-static.yystatic.com/48193420301233036.jpeg)
+
+2. 在搜索栏搜索``YY F2C``，选择我们的插件，点击 **Run** 运行
+![搜索插件](https://hd-static.yystatic.com/8376572175789598.jpeg)
+
+3. 看到插件成功运行则表示插件安装成功（注意：此时由于没有启动 **@baidu/f2c-server**，插件会提示连接中）
+![插件运行](https://hd-static.yystatic.com/857517049047199.jpeg)
+
+> 注意：插件如果有更新，建议重复步骤2，重新打开插件可以确保插件在最新版本下运行
+
+## f2c-server 安装
+
+目前我们通过 `f2c-server` 服务来接受生成的资源，并放置在你指定的文件目录中。当然，后续我们会添加 **codesandbox** 和 **vscode插件** 来更方便的接收生成的资源。
+
+### 全局安装 & 启动（推荐）
+
+- 安装在 npm 全局，通过全局命令调用
+```bash
+# mac可能需要sudo
+npm i @baidu/f2c-server --registry="http://registry.npm.baidu-int.com" -g
+
+# 在任意命令行执行
+f2c dev
+```
+
+- 或者使用 pnpm 安装
+```bash
+# mac可能需要sudo
+pnpm i @baidu/f2c-server --registry="http://registry.npm.baidu-int.com" -g
+
+# 在任意命令行执行
+pnpm f2c dev
+```
+
+命令行输出运行端口，此时server准备就绪
+![准备就绪](https://hd-static.yystatic.com/964683369748838.png)
+
+### 局部安装
+1. 打开命令行，进入到你的前端React项目
+```bash
+cd ./your-react-project
+```
+
+2. 安装 `@baidu/f2c-servernpm` 包，用于接收Figma插件提供的数据
+```bash
+# 以npm为例
+npm i @baidu/f2c-server --registry="http://registry.npm.baidu-int.com"
+```
+
+3. **package.json** 添加 **scripts** 并执行
+```json
+{
+   "scripts": {
+       "f2c": "f2c dev",
+   }
+}
+```
+```bash
+npm run f2c
+```

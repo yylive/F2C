@@ -1,0 +1,37 @@
+[
+  {
+    "type": "dir",
+    "name": "start",
+    "label": "开始"
+  },
+  {
+    "type": "dir",
+    "name": "inspector",
+    "label": "图层查看"
+  },
+  {
+    "type": "dir",
+    "name": "code",
+    "label": "设计稿转代码"
+  },
+  {
+    "type": "dir",
+    "name": "dsl",
+    "label": "DSL跨端支持"
+  },
+  {
+    "type": "dir",
+    "name": "saas",
+    "label": "SaaS服务"
+  },
+  {
+    "type": "dir",
+    "name": "tokens",
+    "label": "设计变量导出"
+  },
+  {
+    "type": "dir",
+    "name": "chromePlugin",
+    "label": "Chrome插件功能"
+  }
+]
