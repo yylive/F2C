@@ -32,7 +32,7 @@
       'Helvetica Neue', sans-serif;
 
     :global(.dark) & {
-      background-color: #f1f1f1;
+      background-color: var(--rp-c-bg-mute);
     }
   }
 }
@@ -57,6 +57,6 @@
   transition: background-color 0.2s ease-in-out;
 
   &:hover {
-    background-color: #f1f1f1;
+    background-color: var(--rp-c-bg-mute);
   }
 }
