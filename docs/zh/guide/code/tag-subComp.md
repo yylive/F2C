@@ -1,6 +1,6 @@
 # [进阶] subComp 用法
 
-subComp可以将标记的图层节点转换为子组件代码，起功能类似module，区别是subComp不会为你创建子目录，会直接在原代码文件下创建组件。
+携带subComp标签的图层节点会抽取为子组件代码，起功能类似module，区别是subComp不会为你创建子目录，会直接在原代码文件下创建组件。
 
 设计稿：[https://www.figma.com/design/eQ6iQwUJPCVtZFwSPxdHBv/var-tag-Guide?node-id=460-136&t=s3LEruNvD8zoVKK9-4](https://www.figma.com/design/eQ6iQwUJPCVtZFwSPxdHBv/var-tag-Guide?node-id=460-136&t=s3LEruNvD8zoVKK9-4)
 

@@ -2,7 +2,7 @@
 
 ## 简介[​](http://localhost:3000/docs/showcase/list#%E7%AE%80%E4%BB%8B)
 
-`list`标记主要用来处理`列表`中组件重复的使用场景。使用`list`标记列表的父组件，`item`标记列表中需要抽象出来的子组件。
+`list`标签主要用来处理`列表`中组件重复的使用场景，其需要和`item`标签结合使用。列表图层使用`list`标签，item图层使用`item`标签，会为其创建一个`<Item />`组件。
 
 例如：
 
@@ -27,7 +27,7 @@ Figma设计稿：[https://www.figma.com/design/eQ6iQwUJPCVtZFwSPxdHBv/F2C%E8%BF%
 
 ![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=1480385078f6471e884995bb307545b1&docGuid=daQGrafbSLIhjy)
 
-1. Item组件被抽取，标记var-tag的节点被创建变量入参
+1. Item组件被抽取，带有var标签的节点被创建变量入参
 
 ![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=94ddeadb3ecf422e96aaebc99464e376&docGuid=daQGrafbSLIhjy)
 
