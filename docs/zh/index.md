@@ -26,7 +26,7 @@ features:
     details: React、ReactNative、Vue、鸿蒙、Taro、Android（内测）、IOS（内测）
     icon: 🎯  
   - title: 多种功能集合
-    details: 标注切图、组件代码标记、高阶标签、SAAS、DSL支持、chrome插件
+    details: 标注切图、组件代码标记、高阶图层标签、SAAS、DSL支持、chrome插件
     icon: 📦
   
 ---
