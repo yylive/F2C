@@ -6,7 +6,7 @@
 	},
 	{
 		"text": "案例",
-		"link": "/showcase/static/saibao",
+		"link": "/showcase/basic/saibao",
 		"activeMatch": "/showcase/"
 	}
 ]
