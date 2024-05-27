@@ -1,0 +1,12 @@
+[
+  {
+    "type": "dir",
+    "name": "static",
+    "label": "静态"
+  },
+  {
+    "type": "dir",
+    "name": "senior",
+    "label": "进阶"
+  }
+]
