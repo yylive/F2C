@@ -1,7 +1,7 @@
 # 王者荣耀赏金赛-宣发页
 
 手写十几行代码，一分钟不用，就可以完成需求任务的开发。
-线上页面地址：https://hd-activity.yy.com/yo_2024_kingofglory/pc/html/promotional.html
+
 
 ## PC宣发页
 
