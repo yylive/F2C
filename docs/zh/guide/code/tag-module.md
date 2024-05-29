@@ -1,5 +1,9 @@
 # [进阶] module 用法
 
+:::tip
+[视频演示](http://learn.baidu.com/pages/index.html#/video/?courseId=50590&elementId=c4fa65bd-f0c6-4e92-b62f-c50950023c16&groupId=null&curPlayIndex=3)
+:::
+
 module的用法与subComp一致，唯一的不同是，携带module标签的图层会将自身节点的代码抽取为子组件并放到单独的目录。
 
 subComp在简单的场景中带来了便利，但组件层级越来越多，这时候清晰的代码目录层级更容易维护，来看看如下例子

@@ -1,16 +1,24 @@
-# [进阶] 组件标记
+# 介绍
 
 ## 简介
 
 `组件标记`是创建`Figma组件库`与`代码组件库`之间的映射关系的一种解决方案。
 
-手Y - Figma组件库：[https://www.figma.com/file/k3GFjuD7URDyW0m60BY6Fr?node-id=3-3&t=PG0dT9l2XQMiSsbM-0&type=design&mode=design&fuid=999578870654951439&editor_type=design](https://www.figma.com/file/k3GFjuD7URDyW0m60BY6Fr?node-id=3-3&t=PG0dT9l2XQMiSsbM-0&type=design&mode=design&fuid=999578870654951439&editor_type=design)
+## 背景
 
-手Y - RN组件库: [https://npm.yy.com/package/@yyrn/yyui](https://npm.yy.com/package/@yyrn/yyui)
+YY设计团队维护一套 Figma的手Y基础组件，其对应ReactNative端一侧的代码组件库实现，通过组件标记手段可以将其关联起来。
 
 ![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=d3f2bf99bebb4be7b8dac303b12f5a00&docGuid=6n4FiPS6ibqq03)
 
 ![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=7f153dffb1154dd9819a08f75fb5030b&docGuid=6n4FiPS6ibqq03)
+
+## 收益
+
+1. 设计侧通过Figma组件开发，实现设计端的统一。
+2. 通过`组件标记`能直接生成组件代码，能够：
+   
+   1. 降低团队组件使用的接入成本，实现0文档接入。
+   2. 降低还原设计稿 => 组件代码过程中的出错几率。
 
 ## 原理
 
@@ -28,3 +36,8 @@
 
 ![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=746f4a05a9d94549a27ac33f6b18ab1a&docGuid=6n4FiPS6ibqq03)
 
+## 资料
+
+手Y - Figma组件库：[https://www.figma.com/file/k3GFjuD7URDyW0m60BY6Fr?node-id=3-3&t=PG0dT9l2XQMiSsbM-0&type=design&mode=design&fuid=999578870654951439&editor_type=design](https://www.figma.com/file/k3GFjuD7URDyW0m60BY6Fr?node-id=3-3&t=PG0dT9l2XQMiSsbM-0&type=design&mode=design&fuid=999578870654951439&editor_type=design)
+
+手Y - RN组件库: [https://npm.yy.com/package/@yyrn/yyui](https://npm.yy.com/package/@yyrn/yyui)

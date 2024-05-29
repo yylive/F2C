@@ -16,6 +16,11 @@
   },
   {
     "type": "dir",
+    "name": "mark",
+    "label": "组件标记"
+  },
+  {
+    "type": "dir",
     "name": "dsl",
     "label": "DSL跨端支持"
   },
