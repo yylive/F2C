@@ -20,7 +20,7 @@ Figma地址：[https://www.figma.com/file/eQ6iQwUJPCVtZFwSPxdHBv/var-tag-Guide?t
 
 1. 按如图添加图层标签
 
-![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=bfb568db85af48ac86a71e6b01127616&docGuid=szGLozB1uvALKK)
+![](./tag-var.assets/675ae0baba8307911dff2b97e35038d0.png)
 
 以下我们直接看下生成的代码
 
@@ -28,11 +28,11 @@ Figma地址：[https://www.figma.com/file/eQ6iQwUJPCVtZFwSPxdHBv/var-tag-Guide?t
 
 1. 代码全览图
 
-![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=2d23f37e528c4a698222810889c4b6f6&docGuid=szGLozB1uvALKK)
+![](./tag-var.assets/e3daaee0ea5aee00f5bc6f4c13f53e61.png)
 
 2. 可以看到，将avatar节点添加`var`标签后，组件为该节点创建了三个入参：`avatarProp`, `avatarCss`, `avatar`,其作用如下表:
 
-![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=e40dd1ba287e491d8279ad7ffc559946&docGuid=szGLozB1uvALKK)
+![](./tag-var.assets/173610b862af21fb54a539e908ff927d.png)
 
 | Prop       | 作用                                                   |
 | ------------ | -------------------------------------------------------- |
@@ -42,7 +42,7 @@ Figma地址：[https://www.figma.com/file/eQ6iQwUJPCVtZFwSPxdHBv/var-tag-Guide?t
 
 1. 通过一系列的变量抽取，我们会这样使用F2C生成的代码
 
-![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=3bb34d7513034c17b718913bfd7220cb&docGuid=szGLozB1uvALKK)
+![](./tag-var.assets/587e8415dcea29211d1fb379d6e21a52.png)
 
 完整代码请参考：
 

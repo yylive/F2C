@@ -1,6 +1,6 @@
 # 组件标记 API
 
-![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=64630b22913e46a08051dc8b6aea1c2f&docGuid=BqRvYe-4gvtg7q)
+![](./02-api.assets/3221ab1ae1cc231db885ba09ef91829e.png)
 
 ## getComponentData()
 

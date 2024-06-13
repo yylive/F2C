@@ -6,9 +6,9 @@
 
 例如：
 
-![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=eab17d20237748fe8561cc81c809d3b3&docGuid=daQGrafbSLIhjy)
+![](./tag-list.assets/44a35163bd4dff21a3d939dcb7154390.png)
 
-![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=590870142dce4c969a5e3386702f9432&docGuid=daQGrafbSLIhjy)
+![](./tag-list.assets/02bb51f2942a3df4b10345a4c5f2c324.png)
 
 ## 使用示例
 
@@ -18,18 +18,18 @@ Figma设计稿：[https://www.figma.com/design/eQ6iQwUJPCVtZFwSPxdHBv/F2C%E8%BF%
 
 ### 第一步，将list与item节点按如图添加tag
 
-![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=dbf542dae4634b3191cfae5fb3059a2b&docGuid=daQGrafbSLIhjy)
+![](./tag-list.assets/59cb69dada4dfb28eb6ba1e719a76fce.png)
 
 ### 第二步，生成代码
 
 1. 首先是RankList的代码，我们为item节点生成了listData数据
 2. list节点会自动创建列表循环代码
 
-![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=1480385078f6471e884995bb307545b1&docGuid=daQGrafbSLIhjy)
+![](./tag-list.assets/8aa6a73834b8800f84da637750ac8f37.png)
 
 1. Item组件被抽取，带有var标签的节点被创建变量入参
 
-![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=94ddeadb3ecf422e96aaebc99464e376&docGuid=daQGrafbSLIhjy)
+![](./tag-list.assets/abffbc7305b0d08b14228106adedd917.png)
 
 ## 更多进阶参考
 

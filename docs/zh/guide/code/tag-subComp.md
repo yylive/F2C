@@ -15,27 +15,27 @@
 1. 领取按钮图层名改为英文变量，打上subComp tag
 2. 关闭按钮同理
 
-![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=8b2b0cb4264f45f9baddbe5b55e966de&docGuid=TmYS4uwXcoXKq0)
+![](./tag-subComp.assets/816280de1ad08d8f39bf8d3731ba43bc.png)
 
 ### 生成代码
 
 可以看到生成代码被划分为两个组件
 
-![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=c3d5f1cbd0594d7caf8b6935b81da9be&docGuid=TmYS4uwXcoXKq0)
+![](./tag-subComp.assets/3c8dc4628a077b13651e150b1eaa8334.png)
 
 ### 进阶使用 - 增加组件变量
 
 1. 关闭按钮打上bg tag，让它转为<img />标签，同时也打上var Tag，让关闭按钮组件添加变量入参（如下图）
 2. 领取按钮同理
 
-![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=5f4e3ac2feea4a27a53bb0d5d89b5a31&docGuid=TmYS4uwXcoXKq0)
+![](./tag-subComp.assets/3e0049bdecfb1a5f1f3fe30cd610774d.png)
 
 ### 再次生成代码
 
 1. 领取按钮和关闭按钮均带上了变量入参
 
-![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=208894c9975c450093842fc30bd47317&docGuid=TmYS4uwXcoXKq0)
+![](./tag-subComp.assets/7c99e7e5fb2d3d9833a5e77ea6abf62d.png)
 
 1. 根组件引用了这两个子组件
 
-![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=474402e387fd4cebabe557a85267dc44&docGuid=TmYS4uwXcoXKq0)
+![](./tag-subComp.assets/3c1eb22d787288dd4ce8879617337239.png)

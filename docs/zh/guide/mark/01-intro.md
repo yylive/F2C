@@ -8,9 +8,9 @@
 
 YY设计团队维护一套 Figma的手Y基础组件，其对应ReactNative端一侧的代码组件库实现，通过组件标记手段可以将其关联起来。
 
-![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=d3f2bf99bebb4be7b8dac303b12f5a00&docGuid=6n4FiPS6ibqq03)
+![](./01-intro.assets/54bc4cf18c87f96a734301a4673c88f3.png)
 
-![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=7f153dffb1154dd9819a08f75fb5030b&docGuid=6n4FiPS6ibqq03)
+![](./01-intro.assets/f39d577562d7a3265fcb1a88c2eb087e.png)
 
 ## 收益
 
@@ -24,17 +24,17 @@ YY设计团队维护一套 Figma的手Y基础组件，其对应ReactNative端一
 
 以 按钮组件（[设计稿](https://www.figma.com/design/cNJ4lpXYaDxqU8ONk2pWck/%E7%BB%84%E4%BB%B6%E5%BA%93-C%E7%AB%AF-%E7%A7%BB%E5%8A%A8%E7%AB%AF-(Copy)?node-id=192-10756&t=zk317WUGDV8XLCVZ-4)）为例，其映射原理如下，具体的标记API可以查看：[【文档】Figma组件配置API](https://ku.baidu-int.com/knowledge/HFVrC7hq1Q/M-wK0zh99p/mTQY0VEf8w/BqRvYe-4gvtg7q)
 
-![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=07c4d23e2d6e4a89adf5ba0a8ef235e4&docGuid=6n4FiPS6ibqq03)
+![](./01-intro.assets/c9b57ce2020db6d02ce40c7b6dd98439.png)
 
 ### 完整示例
 
 * 按钮组件的完整标记
 
-![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=693fb5a6135640c386b403f9f68136c8&docGuid=6n4FiPS6ibqq03)
+![](./01-intro.assets/66baa05f268ce95d7fae51e072ee73a4.png)
 
 * 按钮组件映射为YYRN组件库代码
 
-![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=746f4a05a9d94549a27ac33f6b18ab1a&docGuid=6n4FiPS6ibqq03)
+![](./01-intro.assets/88284d5bb2a3fc4ccb37c1f2467f71e4.png)
 
 ## 资料
 

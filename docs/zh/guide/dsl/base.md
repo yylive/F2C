@@ -8,7 +8,7 @@ DSL(Domain-specific language)的全程是领域特定语言。在F2C转码过程
 
 目前我们支持了`React`, `React Native(RN)`, `鸿蒙`，`Taro`, `Vue`这些DSL，通过选项面板可以选择我们想要生成的端代码。
 
-![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=3e33e9ee3e634adda23346979e8baa13&docGuid=7dn2NY2Un-RD_5)
+![](./base.assets/1e02483baf655dceb6848a85571eb316.png)
 
 ## 接入流程
 
