@@ -1,7 +1,7 @@
 # 基本用法
-:::tip
+<!-- :::tip
 [视频演示](http://learn.baidu.com/pages/index.html#/video/?courseId=50590&elementId=7b9563c1-97ce-4b1e-a2bd-fb0767907dee&groupId=null&curPlayIndex=1)
-:::
+::: -->
 
 
 [**快速开始**](../start/quick-start.mdx)已经详细描述了如何开始使用YY F2C转代码，因此该文档只解释一些具体用法。

@@ -1,5 +1,9 @@
 # 快速开始设计稿转代码
 
+设计稿转代码需要安装两个必要工具：
+- Figma F2C 插件
+- 客户端代码接收工具 （命令行与VSCode插件二选一）
+
 ## Figma插件安装和运行
 
 在开始使用前，你需要安装 [YY F2C在Figma侧的插件](https://www.figma.com/community/plugin/1248187540929489451/yy-f2c)
@@ -21,7 +25,13 @@
 
 > 注意：插件如果有更新，建议重复步骤2，重新打开插件可以确保插件在最新版本下运行
 
-## f2c-server 安装
+## 选项一：安装VSCode插件
+
+1. 安装对应插件：https://marketplace.visualstudio.com/items?itemName=ron0115.f2c-vscode
+
+
+
+## 选项二：安装命令行工具
 
 目前我们通过 `f2c-server` 服务来接受生成的资源，并放置在你指定的文件目录中。当然，后续我们会添加 **codesandbox** 和 **vscode插件** 来更方便的接收生成的资源。
 
@@ -30,7 +40,7 @@
 - 安装在 npm 全局，通过全局命令调用
 ```bash
 # mac可能需要sudo
-npm i @baidu/f2c-server --registry="http://registry.npm.baidu-int.com" -g
+npm i f2c-server  -g
 
 # 在任意命令行执行
 f2c dev
@@ -39,7 +49,7 @@ f2c dev
 - 或者使用 pnpm 安装
 ```bash
 # mac可能需要sudo
-pnpm i @baidu/f2c-server --registry="http://registry.npm.baidu-int.com" -g
+pnpm i f2c-server  -g
 
 # 在任意命令行执行
 pnpm f2c dev
@@ -54,10 +64,10 @@ pnpm f2c dev
 cd ./your-react-project
 ```
 
-2. 安装 `@baidu/f2c-servernpm` 包，用于接收Figma插件提供的数据
+2. 安装 `@baidu/f2c-server`npm包，用于接收Figma插件提供的数据
 ```bash
 # 以npm为例
-npm i @baidu/f2c-server --registry="http://registry.npm.baidu-int.com"
+npm i f2c-server
 ```
 
 3. **package.json** 添加 **scripts** 并执行

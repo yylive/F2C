@@ -1,8 +1,8 @@
 # [进阶] subComp 用法
 
-:::tip
+<!-- :::tip
 [视频演示](http://learn.baidu.com/pages/index.html#/video/?courseId=50590&elementId=c4fa65bd-f0c6-4e92-b62f-c50950023c16&groupId=null&curPlayIndex=3)
-:::
+::: -->
 
 携带subComp标签的图层节点会抽取为子组件代码，起功能类似module，区别是subComp不会为你创建子目录，会直接在原代码文件下创建组件。
 
