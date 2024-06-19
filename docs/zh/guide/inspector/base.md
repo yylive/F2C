@@ -1,7 +1,7 @@
 # 基本使用
-<!-- :::tip
-[视频演示](http://learn.baidu.com/pages/index.html#/video/?courseId=50590&elementId=ce9cc574-ae8e-44ea-8865-e786f8ddbc70&userId=6826604&groupId=null&curPlayIndex=0)
-::: -->
+:::tip
+[视频演示](https://www.bilibili.com/video/BV1D5gPeLETb/?vd_source=7fcf31abc7924b3dd8be9356b65e1c92)
+:::
 
 该功能的作用是查看图层的相关信息，类似于Figma的**Dev Mode**功能，并提供切图批量下载和上传功能。
 
@@ -34,7 +34,7 @@
 
 ## 切图与上传
 
-<!-- [视频演示](http://learn.baidu.com/pages/index.html#/video/?courseId=50590&elementId=7b072664-64da-424b-b1cc-8fde237d0b27&groupId=null&curPlayIndex=2) -->
+[视频演示](https://www.bilibili.com/video/BV1S5gPeLEUo/?vd_source=7fcf31abc7924b3dd8be9356b65e1c92)
 
 ![切图示意图](https://hd-static.yystatic.com/032402725539329325.jpeg)
 
