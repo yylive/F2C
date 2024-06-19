@@ -15,6 +15,9 @@ hero:
     - theme: alt
       text: Chrome插件
       link: https://chromewebstore.google.com/detail/figma-node-inspect/gmcgpjgoiidajfjhdooaajaeonnmikfc
+    - theme: alt
+      text: VSCode插件
+      link: https://marketplace.visualstudio.com/items?itemName=ron0115.f2c-vscode
   image:
     src: /rspress-icon.png
     alt: YY F2C Logo
