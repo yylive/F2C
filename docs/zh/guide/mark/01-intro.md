@@ -6,11 +6,15 @@
 
 ## 背景
 
-YY设计团队维护一套 Figma的手Y基础组件，其对应ReactNative端一侧的代码组件库实现，通过组件标记手段可以将其关联起来。
+YDC 设计团队维护一套 Figma的手Y基础组件，其对应ReactNative端一侧的代码组件库实现，通过组件标记手段可以将其关联起来。
 
 ![](./01-intro.assets/54bc4cf18c87f96a734301a4673c88f3.png)
 
 ![](./01-intro.assets/f39d577562d7a3265fcb1a88c2eb087e.png)
+
+中后台组件库
+
+![中后台](./01-intro.assets/image.png)
 
 ## 收益
 
