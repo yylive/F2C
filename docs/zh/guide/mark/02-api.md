@@ -62,7 +62,7 @@
 #### nodePath的数组写法
 在复杂中，组件不同变体导致了节点位置可能在不同的图层路径下，这时候nodePath可以使用数组指定多种路径可能性来进行匹配
 
-![alt text](image-3.png)
+![alt text](./image-3.png)
 
 完整示例： https://www.figma.com/design/eQ6iQwUJPCVtZFwSPxdHBv/F2C-showcase?node-id=706-2570&t=94Xx4JbxtDjF78Ff-4
 
