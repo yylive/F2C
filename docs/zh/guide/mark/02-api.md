@@ -20,11 +20,43 @@
 
 | 参数                    | 说明                                                                                                                                                                           | 类型                                                                                                                                                                                                                                | 示例                                                                                                                                                   |
 | ------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| propKey                 | 组件参数名称,可以使用'a.b'这种格式                                                                                                                                             | string                                                                                                                                                                                                                              | style | 'style.background'                                                                                                                             |
+| propKey                 | 组件参数名称,可以使用'a.b'这种格式                                                                                                                                             | string                                                                                                                                                                                                                              | style ,或[链式写法](#-key的链式写法) 'style.background'                                                                                                                             |
 | **IDynamicPropsValue** | 组件参数的映射配置                                                                                                                                                             | **IPropValueObject**                                                                                                                                                                                                               | 两种情况如下                                                                                                                                           |
-| nodePath                | 组件路径，使用‘>’连接                                                                                                                                                        | string | string[]                                                                                                                                                                                                                   | 如‘Button>content’,多个变体的层级不一样，可以传入不同层级下的nodePath数组兼容                                                                        |
-| getPropValue            | getPropValue的值是string，调用[*内置方法*](https://ku.baidu-int.com/knowledge/HFVrC7hq1Q/M-wK0zh99p/mTQY0VEf8w/BqRvYe-4gvtg7q#anchor-a9aa74c0-5153-11ee-99fd-cb8a4acf3497)得到值 | string                                                                                                                                                                                                                              | {collor: {nodePath:'Button>content',*// 获取按钮颜色*getPropValue:'getTextColor',}}                                                                   |
-| getPropValue            | getPropValue是function，通过node上的figma原生属性拿到值                                                                                                                        | function(node, _) {}/** param node */Figma原始node，文档：[https://www.figma.com/plugin-docs/api/nodes/](https://www.figma.com/plugin-docs/api/nodes/)/** param _ */_里面包含了F2C的工具函数，如_.getNodeImg(node),传入figma的原生node | {textStyle:{nodePath:'Button>content',*// 获取图层字体大小* **getPropValue** :(node, _)=>{return{bg: _.getNodeImg(node),fontSize:node.fontSize,}},}} |
+| nodePath                | 节点路径，具体见                                                                                                                                                        | string 或 string[]                                                                                                                                                                                                                   | 如‘Button>content’,多个变体的层级不一样，可以传入不同层级下的nodePath数组兼容,见[示例](#nodepath的使用说明)                                                                       
+| getPropValue            | getPropValue的值是string，调用[*内置方法*](#getpropvalue节点解析函数)得到值 | string                                                                                                                                                                                                                              | [示例](#写法2直接填赋值为方法名可减少代码)                                                                |
+| getPropValue            | getPropValue是function，通过node上的figma原生属性拿到值                                                                                                                        | (node, _) => void                    ；  [参数node](https://www.figma.com/plugin-docs/api/nodes/) ；[参数_](#getpropvalue节点解析函数) | [示例](#写法1function写法)
+
+
+### `nodePath`的使用说明
+
+#### 全路径写法
+
+例子：`Group 8073>Vector 371`
+
+![全路径](./image-1.png)
+
+完整示例：https://www.figma.com/design/eQ6iQwUJPCVtZFwSPxdHBv/F2C-showcase?node-id=691-2863&t=94Xx4JbxtDjF78Ff-4
+
+
+#### 正则写法模糊匹配路径
+
+例子：`/.*?\>前3名\>.*?bg/` , `/榜单列表标题/`
+
+![正则](./image.png)
+
+完整示例：https://www.figma.com/design/eQ6iQwUJPCVtZFwSPxdHBv/F2C-showcase?node-id=649-1842&t=94Xx4JbxtDjF78Ff-4
+
+
+
+#### 以$前缀命名图层
+
+例子：`$头图`
+
+![$前缀](./image-2.png)
+
+完整示例：https://www.figma.com/design/eQ6iQwUJPCVtZFwSPxdHBv/F2C-showcase?node-id=636-1350&t=94Xx4JbxtDjF78Ff-4
+
+
 
 ## 使用场景和示例
 
