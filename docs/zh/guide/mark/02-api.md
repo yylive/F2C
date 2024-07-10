@@ -30,6 +30,7 @@
 ### `nodePath`的使用说明
 
 #### 全路径写法
+全路径是最基础的写法，你可以通过锁定根组件节点图层，然后选中子图层在面板中获取节点的全路径。
 
 例子：`Group 8073>Vector 371`
 
@@ -39,6 +40,7 @@
 
 
 #### 正则写法模糊匹配路径
+正则写法可以减少深层节点路径带来的nodePath的复杂度增加。其写法灵活性更高。
 
 例子：`/.*?\>前3名\>.*?bg/` , `/榜单列表标题/`
 
@@ -49,6 +51,7 @@
 
 
 #### 以$前缀命名图层
+使用$前缀命名图层，相比全路径写法标记更快速，但是要注意同一个组件实例下不能有同名的nodePath，因为相比于全路径写法，$前缀写法需要确保唯一性才能准确定位到图层。
 
 例子：`$头图`
 
@@ -56,6 +59,12 @@
 
 完整示例：https://www.figma.com/design/eQ6iQwUJPCVtZFwSPxdHBv/F2C-showcase?node-id=636-1350&t=94Xx4JbxtDjF78Ff-4
 
+#### nodePath的数组写法
+在复杂中，组件不同变体导致了节点位置可能在不同的图层路径下，这时候nodePath可以使用数组指定多种路径可能性来进行匹配
+
+![alt text](image-3.png)
+
+完整示例： https://www.figma.com/design/eQ6iQwUJPCVtZFwSPxdHBv/F2C-showcase?node-id=706-2570&t=94Xx4JbxtDjF78Ff-4
 
 
 ## 使用场景和示例
