@@ -2,17 +2,36 @@
 
 ![](./02-api.assets/3221ab1ae1cc231db885ba09ef91829e.png)
 
-## getComponentData()
-
-> **ReturnType<typeof getComponentData>**
+## getComponentData(node, props, extraProps)
+函数参数 **ParamsType**
 
 | 参数         | 说明                                 | 类型                              | 备注 |
+| -------------- | -------------------------------------- | ----------------------------------- | ------ |
+| node       | Figma原始node                     |              https://www.figma.com/plugin-docs/api/nodes/               |      |
+| props   | Figma组件的key-value                 | object                            |      |
+| extraProps    | 标记体系存放扩展字段的参数，例如beforeParse的返回值                        | object                            |      |
+
+
+
+函数返回值 **ReturnType<typeof getComponentData>**
+
+| 返回值对象key         | 说明                                 | 类型                              | 备注 |
 | -------------- | -------------------------------------- | ----------------------------------- | ------ |
 | export       | 组件的导出模块名                     | string                            |      |
 | typeExport   | 组件类型的导出模块名                 | string                            |      |
 | importLib    | 组件npm库名称                        | string                            |      |
 | constProps   | 组件属性是否转为json，再通过解构传入 | boolean                           |      |
 | dynamicProps | 组件的参数映射表                     | { [propKey: string]: IPropValue } |      |
+| beforeParse | 异步函数，在组件解析前执行，并将结果回传到getComponentData的 extraProps中，一般用于前置数据初始化等行为                   | (node) =>  any |      |
+| afterParse | 同步函数，在组件解析后执行，一般用于包装上传到后端的JSON的数据结构                   | ({code, props, info}) =>  any |      |
+
+## beforeParse
+用法如图
+![beforeParse](./02-api.assets/11221a17ed525f785c0dd154a8a3c894.png)
+
+## afterParse
+用法如图
+![alt text](./02-api.assets/79557b75fc8c7da47140a6c717422f07.png)
 
 ## dynamicProps
 
