@@ -19,9 +19,15 @@
 .rspress-nav-search-button {
   background: rgba(255, 255, 255, 0.60);
 }
-@media (min-width: 640px) {
   .rspress-home-hero-image {
-    width: 563px;
+    padding-bottom: 30px;
+  }
+@media (min-width: 1200px) {
+  .rspress-home-hero-image {
+    flex-shrink: 0; 
+    padding-left: 100px;
+    box-sizing: content-box;
+    width: 615px;
     height: auto;
     img {
       text-align: center;
