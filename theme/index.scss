@@ -4,3 +4,28 @@
 .w-20 {
     width: 5rem;
 }
+.f2c-bg {
+  background: url(https://zhuiya.bs2cdn.yy.com/f2c/10000/13242/4345/d0c67dc5b46e4b7e83cab17743be8962.png);
+  width: 1920px;
+  height: 1002px;
+  position: fixed;
+  top: 0;
+
+  z-index: -1;
+}
+.rspress-nav {
+  background: transparent;
+}
+.rspress-nav-search-button {
+  background: rgba(255, 255, 255, 0.60);
+}
+@media (min-width: 640px) {
+  .rspress-home-hero-image {
+    width: 563px;
+    height: auto;
+    img {
+      text-align: center;
+      width: 100%;
+    }
+  }
+}

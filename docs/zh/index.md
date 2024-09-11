@@ -19,7 +19,7 @@ hero:
       text: VSCode插件
       link: https://marketplace.visualstudio.com/items?itemName=ron0115.f2c-vscode
   image:
-    src: /rspress-icon.png
+    src: https://zhuiya.bs2cdn.yy.com/f2c/10000/13262/4366/716bf792e4e24eb9b933c062fa47806b.png
     alt: YY F2C Logo
 features:
   - title: 高还原度
