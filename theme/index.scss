@@ -38,3 +38,14 @@
 .rspress-sidebar .rspress-logo {
   display: none;
 }
+img[alt=sizes] {
+  max-width: 30%;
+}
+
+img[alt=sizem] {
+  max-width: 50%;
+}
+
+img[alt=sizel] {
+  max-width: 80%;
+}

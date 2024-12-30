@@ -1,7 +1,7 @@
 # 基本使用
-
-> **百度 AI 助力，获得更先进的 D2C 体验**
-
+:::tip
+**百度 AI 助力，获得更先进的 D2C 体验**
+:::
 ## 安装
 扫码或前往 [VSCode插件市场](https://marketplace.visualstudio.com/items?itemName=BaiduComate.comate) 安装
 <img src="https://hd-static.yystatic.com/30153333371192104.png?x-bce-process=image/quality,q_80" width="500" /> 
@@ -14,20 +14,20 @@
 
 1. 在设计稿里打开F2C插件，切换到“代码”页面，在“文件导出模式”下拉框选择“百度comate”。
 
-![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=87fe9ecc3ffc481d857bd5c2c659d571&docGuid=jDLvDOt4KmG9gq)
+![sizem](./usage.assets/b454d2d30f1a5ec0ccb618c7d8b5cc94.png)
 
 1. 在设计稿中选择一个设计节点，点击插件中的“生成代码”按钮。
 
 （F2C会调起VS Code 的comate, 如有弹窗提示，选择“允许打开”。勾选“始终允许”，可避免每次弹窗确认）
 
-![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=2bc602fec7164cc0a02cf135b03e87ac&docGuid=jDLvDOt4KmG9gq)
+![sizem](./usage.assets/feaf8959ff5c25ffa49e7e548bf5b8d0.png)
 
-![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=2ed5bd55de904905b1b9bc657ba31d71&docGuid=sPIwDtY_90bxYh)
+![sizem](./usage.assets/93a5b2571eeeb22831e94a9ecc0823ce.jpg)
 
-![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=bf9d24533f5d42d794f7251d8fca2fca&docGuid=jDLvDOt4KmG9gq)
+![sizem](./usage.assets/1595536861ed54c0c6f1d892a886d891.png)
 
 1. F2C 会和comate建立连接，推送代码，直到代码推送完成。点击“批量采纳”，即可在项目中使用代码。
 
-![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=5a70260ee7ac480186b49ea2739638ad&docGuid=jDLvDOt4KmG9gq)
+![sizem](./usage.assets/78f3cc6244437b717c9c4756ddc8c2fc.png)
 
-![](https://rte.weiyun.baidu.com/wiki/attach/image/api/imageDownloadAddress?attachId=7a4c1981780d40e088bfcc8f084b7feb&docGuid=jDLvDOt4KmG9gq)
+![sizem](./usage.assets/f44e4dcb3d7a1d88235324fca7bba1ec.png)
