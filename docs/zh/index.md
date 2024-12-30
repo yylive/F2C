@@ -18,6 +18,10 @@ hero:
     - theme: alt
       text: VSCode插件
       link: https://marketplace.visualstudio.com/items?itemName=ron0115.f2c-vscode
+    - theme: alt
+      text: 百度Comate插件
+      link: /guide/comate/usage
+      
   image:
     src: https://zhuiya.bs2cdn.yy.com/f2c/10000/13263/4367/8609ce919f3b46d986e0345e828e00dc.png
     alt: YY F2C Logo
