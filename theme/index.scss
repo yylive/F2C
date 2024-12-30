@@ -39,13 +39,16 @@
   display: none;
 }
 img[alt=sizes] {
+  display: inline-block;
   max-width: 30%;
 }
 
 img[alt=sizem] {
+  display: inline-block;
   max-width: 50%;
 }
 
 img[alt=sizel] {
+  display: inline-block;
   max-width: 80%;
 }
