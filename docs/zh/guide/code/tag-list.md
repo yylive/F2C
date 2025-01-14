@@ -31,6 +31,3 @@ Figma设计稿：[https://www.figma.com/design/eQ6iQwUJPCVtZFwSPxdHBv/F2C%E8%BF%
 
 ![](./tag-list.assets/abffbc7305b0d08b14228106adedd917.png)
 
-## 更多进阶参考
-
-list结合subComp用法 [F2C系列视频教程](http://learn.baidu.com/pages/index.html#/video/?courseId=50590&elementId=a964609b-86b5-44a9-bdf1-f8dcdeb5bdcb&userId=6826604&groupId=null&curPlayIndex=3)
