@@ -1,5 +1,9 @@
 # 组件标记 API
 
+:::tip
+下图中的示例，您可以点击[设计稿](https://www.figma.com/design/eQ6iQwUJPCVtZFwSPxdHBv/F2C-showcase?node-id=753-3092&t=zlg6w1wrf4gfZ2VK-4)，并拷贝到自己的 Drafts 中体验
+:::
+
 ![](./02-api.assets/3221ab1ae1cc231db885ba09ef91829e.png)
 
 ## getComponentData(node, props, extraProps)
