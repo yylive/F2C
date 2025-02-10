@@ -26,6 +26,9 @@ dependencies:
   rspress:
     specifier: ^1.39.3
     version: 1.39.3(webpack@5.91.0)
+  rspress-plugin-sitemap:
+    specifier: ^1.1.1
+    version: 1.1.1
   tailwindcss:
     specifier: ^3.4.3
     version: 3.4.3
@@ -1164,7 +1167,7 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
     dependencies:
-      caniuse-lite: 1.0.30001600
+      caniuse-lite: 1.0.30001690
       electron-to-chromium: 1.4.715
       node-releases: 2.0.14
       update-browserslist-db: 1.0.13(browserslist@4.23.0)
@@ -1186,10 +1189,6 @@ packages:
   /camelcase-css@2.0.1:
     resolution: {integrity: sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==}
     engines: {node: '>= 6'}
-    dev: false
-
-  /caniuse-lite@1.0.30001600:
-    resolution: {integrity: sha512-+2S9/2JFhYmYaDpZvo0lKkfvuKIglrx68MwOBqMGHhQsNkLjB5xtc/TGoEPs+MxjSyN/72qer2g97nzR641mOQ==}
     dev: false
 
   /caniuse-lite@1.0.30001690:
@@ -1442,14 +1441,6 @@ packages:
   /emojis-list@3.0.0:
     resolution: {integrity: sha512-/kyM18EfinwXZbno9FyUGeFh87KC8HRQBQGildHZbEuRyWFOmv1U10o9BBp8XVZDVNNuQKyIGIu5ZYAAXJ0V2Q==}
     engines: {node: '>= 4'}
-    dev: false
-
-  /enhanced-resolve@5.16.0:
-    resolution: {integrity: sha512-O+QWCviPNSSLAD9Ucn8Awv+poAkqn3T1XY5/N7kR7rQO9yfSGWkYZDwpJ+iKF7B8rxaQKWngSqACpgzeapSyoA==}
-    engines: {node: '>=10.13.0'}
-    dependencies:
-      graceful-fs: 4.2.11
-      tapable: 2.2.1
     dev: false
 
   /enhanced-resolve@5.18.0:
@@ -3772,6 +3763,10 @@ packages:
       fs-extra: 11.2.0
     dev: false
 
+  /rspress-plugin-sitemap@1.1.1:
+    resolution: {integrity: sha512-usb6zWoi5wFFmBeA9HKR6BhsnnsItudMBarc54GYpuRL55SWkLxyWyMijv14mUI04FI7J7lEmea08uZE0bVKxg==}
+    dev: false
+
   /rspress@1.39.3(webpack@5.91.0):
     resolution: {integrity: sha512-XNsgPIdkVenP4knrys8WSN87nuTe32in2zg4+i9UbPUduOA9n082pwMpnxL5FIraUe3ZjSI2nzwEBRlkmPY72Q==}
     hasBin: true
@@ -4470,7 +4465,7 @@ packages:
     dependencies:
       browserslist: 4.23.0
       escalade: 3.1.2
-      picocolors: 1.0.0
+      picocolors: 1.1.1
     dev: false
 
   /uri-js@4.4.1:
@@ -4571,7 +4566,7 @@ packages:
       acorn-import-assertions: 1.9.0(acorn@8.11.3)
       browserslist: 4.23.0
       chrome-trace-event: 1.0.3
-      enhanced-resolve: 5.16.0
+      enhanced-resolve: 5.18.0
       es-module-lexer: 1.4.2
       eslint-scope: 5.1.1
       events: 3.3.0

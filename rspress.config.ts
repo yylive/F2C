@@ -1,4 +1,5 @@
 import * as path from "node:path";
+import rspressPluginSitemap from "rspress-plugin-sitemap";
 import { defineConfig } from "rspress/config";
 
 export default defineConfig({
@@ -52,4 +53,9 @@ export default defineConfig({
 			},
 		},
 	},
+  plugins: [
+    rspressPluginSitemap({
+      domain: "https://f2c.yy.com",
+    }),
+  ]
 });
