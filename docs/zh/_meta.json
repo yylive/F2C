@@ -1,12 +1,12 @@
 [
 	{
-		"text": "指南",
-		"link": "/guide/start/",
-		"activeMatch": "/guide/"
+		"text": "Chrome插件体系(推荐)",
+		"link": "/chrome/about/",
+		"activeMatch": "/chrome/"
 	},
 	{
-		"text": "案例",
-		"link": "/showcase/basic/saibao",
-		"activeMatch": "/showcase/"
+		"text": "Figma插件体系",
+		"link": "/guide/start/",
+		"activeMatch": "/guide/"
 	}
 ]

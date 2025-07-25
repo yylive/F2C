@@ -36,11 +36,6 @@
   },
   {
     "type": "dir",
-    "name": "chromePlugin",
-    "label": "Chrome插件功能"
-  },
-  {
-    "type": "dir",
     "name": "comate",
     "label": "百度Comate插件"
   }

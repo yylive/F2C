@@ -1,0 +1,39 @@
+# 总览
+
+## 快速使用
+
+### 前置条件：
+
+- 下载[Chrome 插件](https://chromewebstore.google.com/detail/f2c/gmcgpjgoiidajfjhdooaajaeonnmikfc)
+- 下载 IDE，推荐[Comate](https://comate.baidu.com/zh/download/ai-ide)，当然你也可以使用 VSCode、Trae、Cursor 等
+- [MCP](https://github.com/f2c-ai/f2c-mcp/blob/main/README-zh-CN.md)。可选，如果你使用 VSCode、Trae、Cursor 等则需要安装
+
+### 开始生成
+
+1. 用浏览器打开你的 Figma 设计稿，选中你想要转代码的节点，点击浏览器插件右上角代码图标
+
+   ![参考图](https://hd-static.yystatic.com/43043491485233787.png)
+
+2. 如果你尚未授权，则会跳转授权（Figma 官方提供）。若授权则会看到下面页面，从左到右分别是下载代码、预览代码、跳转 Comate。我们这里点击跳转 Comate。
+   ![参考图](https://hd-static.yystatic.com/8333048709957955.png)
+
+3. 跳转 Coamte 后会自动帮你生成 prompt，点击运行则可以生成代码
+   ![参考图](https://hd-static.yystatic.com/8525870140330801.png)
+
+> 如果你使用的是非 Comate 的 IDE 则需要安装 MCP 辅助，你可以通过从浏览器插件中复制链接进行生成代码，参考：https://aicoding.juejin.cn/post/7507206037440856105 ![复制链接](https://hd-static.yystatic.com/9769596685646796.png)
+
+## 工具
+
+### Chrome 插件
+
+[点击跳转下载](https://chromewebstore.google.com/detail/f2c/gmcgpjgoiidajfjhdooaajaeonnmikfc)
+
+F2C 的 Chrome 插件能够在**只读**的情况下获取设计稿的信息，同时展示设计稿的代码、生成代码、压缩切图等能力。
+
+### MCP Sever
+
+使用 F2C 根据 Figma 设计稿生成代码的模型上下文协议服务器。
+
+### AI 工具
+
+可以是 Cursor、Trae、Comate 等 IDE，也可以是 Dify 等。

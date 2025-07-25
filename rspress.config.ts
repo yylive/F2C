@@ -6,8 +6,8 @@ export default defineConfig({
 	// lang: 'zh',
 	base: "/",
 	root: path.join(__dirname, "docs"),
-	title: "YY F2C - Figma & AI相结合生成开发代码的一站式解决方案",
-	description: "figma code react vue arks html css",
+	title: "YY F2C - Figma To Code生态工具集合",
+	description: "figma chrome code react vue arks html css",
 	icon: "/rspress-icon.png",
 	lang: "zh",
 	logo: {
@@ -23,7 +23,7 @@ export default defineConfig({
 			{
 				icon: "github",
 				mode: "link",
-				content: "https://github.com/yylive/F2C",
+				content: "https://github.com/f2c-ai/f2c-mcp",
 			},
 		],
 		locales: [
