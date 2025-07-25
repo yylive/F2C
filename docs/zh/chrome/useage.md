@@ -1,3 +1,5 @@
+# 插件使用
+
 ## 下载
 
 [点击跳转下载插件](https://chromewebstore.google.com/detail/f2c/gmcgpjgoiidajfjhdooaajaeonnmikfc)

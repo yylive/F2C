@@ -8,7 +8,7 @@ hero:
   actions:
     - theme: brand
       text: Chrome插件
-      link: /chrome/useage
+      link: /chrome/about
     - theme: alt
       text: Figma插件
       link: /guide/start/quick-start
