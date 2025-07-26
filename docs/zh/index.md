@@ -9,6 +9,9 @@ hero:
     - theme: brand
       text: Chrome插件
       link: /chrome/about
+    - theme: brand
+      text: MCP Server
+      link: https://github.com/f2c-ai/f2c-mcp
     - theme: alt
       text: Figma插件
       link: /guide/start/quick-start
