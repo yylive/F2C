@@ -1,5 +1,31 @@
 # 总览
 
+## 视频教程
+
+export const VideoPlayer = () => {
+  return (
+    <video
+      controls
+      width="100%"
+      style={{ maxWidth: "800px", height: "auto" }}
+      preload="metadata"
+    >
+      <source
+        src="https://hd-static.yystatic.com/F2C&Comate联合开发_9210231071057832.mp4"
+        type="video/mp4"
+      />
+      您的浏览器不支持视频播放。请<a
+        href="https://hd-static.yystatic.com/F2C&Comate联合开发_9210231071057832.mp4"
+        target="_blank"
+      >
+        点击这里
+      </a>观看视频。
+    </video>
+  );
+};
+
+<VideoPlayer />
+
 ## 快速使用
 
 ### 前置条件：
