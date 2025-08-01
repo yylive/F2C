@@ -6,8 +6,7 @@ import { FamilyNavIcon } from './FamilyNavIcon'
 export * from "rspress/theme";
 
 const Layout = () => {
-  return <Theme.Layout beforeNavTitle={<FamilyNavIcon />} 
-  beforeHero={<div className={'f2c-bg'} />} />;
+  return <Theme.Layout beforeNavTitle={<FamilyNavIcon />} />;
 };
 
 export default {
