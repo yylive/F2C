@@ -6,13 +6,13 @@ The ****1.5.0 version**** of the F2C ecosystem's [new Chrome plugin](https://chr
 
 As we all know, before the advent of Figma's Dev Mode, information about layer node annotations could be viewed for ****free and in a read-only**** state.
 
-![](promote_en.assets/9f0789e8553ea73accdb5883d8c733b8.png)
+![](./promote_en.assets/9f0789e8553ea73accdb5883d8c733b8.png)
 
 The image above is from the 2022 version of Figma. You can see that the relevant CSS code for the layer node is displayed in the lower right corner.
 
 With the emergence of Dev Mode, developers who have not purchased a seat need to ****pay**** to view it. Refer to the image below:
 
-![](promote_en.assets/281e48ce6905db6eb986a9ed11edf2bc.jpg)
+![](./promote_en.assets/281e48ce6905db6eb986a9ed11edf2bc.jpg)
 
 ## Limitations of Figma Plugins
 
@@ -26,13 +26,13 @@ The [new Chrome plugin](https://chromewebstore.google.com/detail/f2c/gmcgpjgoiid
 
 ## Annotation Information
 
-![](promote_en.assets/711db1151d905bf7d755e383aea61ff8.jpg)
+![](./promote_en.assets/711db1151d905bf7d755e383aea61ff8.jpg)
 
 Select any element to see devtool-like box model information, the relevant CSS code or JavaScript inline code, related properties, and background colors.
 
 ## Asset Slicing
 
-![](promote_en.assets/5af668793567f9a73f59ddb39537a0d5.jpg)
+![](./promote_en.assets/5af668793567f9a73f59ddb39537a0d5.jpg)
 
 Select the layer node you want to slice to see a preview image of that node. Click [Add to Layer List] to see the image in the asset list.
 
@@ -40,47 +40,47 @@ The operation bar below, from left to right, is for: downloading to local, uploa
 
 Preview mode can sometimes be laggy with large layer files. If this bothers you, you can turn off the preview. After turning off the preview, you can add images to the list by clicking the add button in the top right corner:
 
-![](promote_en.assets/598773fa4345d5990b7a862fe63b1d85.jpg)
+![](./promote_en.assets/598773fa4345d5990b7a862fe63b1d85.jpg)
 
 ### Tiny Compression
 
-![](promote_en.assets/5ff94336a2d4f995570fb437465cee27.jpg)
+![](./promote_en.assets/5ff94336a2d4f995570fb437465cee27.jpg)
 
 Clicking the compress image button will show a pop-up window allowing the user to choose: No compression, Custom Token, or Internal. Selecting the latter two options will automatically compress the image during download or upload.
 
 By selecting ​****Custom Token****​, you can get a token by visiting the [tinypng token acquisition link](https://tinify.com/developers). Each user can use 500 free compressions per month. After getting the token, fill it in and save.
 
-![](promote_en.assets/38bfbc0d595f40b34cff33602c62ac81.jpg)
+![](./promote_en.assets/38bfbc0d595f40b34cff33602c62ac81.jpg)
 
 If you choose Internal, the user needs to log in to their account first to use it.
 
 # Code Generation
 
-![](promote_en.assets/8d4df2b2737f0b94e2c560ce4c72d65d.jpg)
+![](./promote_en.assets/8d4df2b2737f0b94e2c560ce4c72d65d.jpg)
 
 Click the code button in the top right corner to generate code. Since it is detached from the Figma App environment, we need to generate a ****legitimate Figma Token**** for the developer to access the design file [officially provided]. If you have not authorized it before, clicking will redirect you to the official Figma authorization page. Click ****Allow access**** to obtain it.
 
-![](promote_en.assets/be6f4e8e3998a4c6d4c36b8a234cb332.png)
+![](./promote_en.assets/be6f4e8e3998a4c6d4c36b8a234cb332.png)
 
 Returning to the code module, we can see a preview of the layer node. The three buttons below are for: downloading the code file to local, previewing the code in the browser, and jumping to [Comate IDE](https://comate.baidu.com/zh/download/ai-ide) for more operations.
 
-![](promote_en.assets/99f0f4e8f43540de4f17d50b523951bb.jpg)
+![](./promote_en.assets/99f0f4e8f43540de4f17d50b523951bb.jpg)
 
 Jumping to [Comate IDE](https://comate.baidu.com/zh/download/ai-ide) will automatically start zulu to help you generate code! Very convenient!
 
-![](promote_en.assets/b0ac1114b3a4051e62191f958fb17a0e.png)
+![](./promote_en.assets/b0ac1114b3a4051e62191f958fb17a0e.png)
 
 # Toolbar
 
-![](promote_en.assets/6682c5d7a429bd8c8d5a1afde6895786.jpg)
+![](./promote_en.assets/6682c5d7a429bd8c8d5a1afde6895786.jpg)
 
 The toolbar has some useful tools for users. Among them
 
-![](promote_en.assets/b0a846d37f2a624cb658dca65472e00f.png)
+![](./promote_en.assets/b0a846d37f2a624cb658dca65472e00f.png)
 
 helps you select deeply nested nodes, equivalent to the Figma shortcut Ctrl (Win), Meta (Mac).
 
-![](promote_en.assets/dc0d515c2b7eeb2df697c35b2bb38fa0.png)
+![](./promote_en.assets/dc0d515c2b7eeb2df697c35b2bb38fa0.png)
 
 helps you automatically enable the Figma measurement function, equivalent to the Figma shortcut Alt.
 
@@ -92,15 +92,15 @@ The plugin system is fully compatible with [tempad-dev](https://chromewebstore.g
 
 Step.1
 
-![](promote_en.assets/e3038a52604b7afc701bacd4cae9f33b.jpg)
+![](./promote_en.assets/e3038a52604b7afc701bacd4cae9f33b.jpg)
 
 Step.2
 
-![](promote_en.assets/230767046e9be129b619dbc524805ac7.jpg)
+![](./promote_en.assets/230767046e9be129b619dbc524805ac7.jpg)
 
 Step.3
 
-![](promote_en.assets/c03714ece2745862badf010b36b9630a.jpg)
+![](./promote_en.assets/c03714ece2745862badf010b36b9630a.jpg)
 
 ﻿
 

@@ -6,15 +6,15 @@ F2C生态的[新Chrome插件](https://chromewebstore.google.com/detail/f2c/gmcgp
 
 众所周知在Figma Dev Mode出现之前，相关的图层节点标注信息是能够在****免费、只读****的情况下查看到的。
 
-![](promote.assets/9f0789e8553ea73accdb5883d8c733b8.png)
+![](./promote.assets/9f0789e8553ea73accdb5883d8c733b8.png)
 
 上图是2022年的Figma版本，可以看到在右下方能够显示图层节点的相关CSS代码。
 
 随着Dev Mode出现，没有购买其席位的开发者需要****付费****进行查看。参考下图：
 
-![](promote.assets/2cc34f8bdf4cc618ac666bc3cfef3c18.png)
+![](./promote.assets/2cc34f8bdf4cc618ac666bc3cfef3c18.png)
 
-![](promote.assets/6e86d8a2ad0d1755e31d320898da7584.png)
+![](./promote.assets/6e86d8a2ad0d1755e31d320898da7584.png)
 
 （当然你点击复制也能拷贝到部分样式，如果你需要完整的，需要每个部分都点击复制
 
@@ -32,13 +32,13 @@ F2C生态的[新Chrome插件](https://chromewebstore.google.com/detail/f2c/gmcgp
 
 ## 标注信息
 
-![](promote.assets/e0ade4e660d92e214de42501826e450d.png)
+![](./promote.assets/e0ade4e660d92e214de42501826e450d.png)
 
 选择任意元素能看到类devtool的盒模型信息，相关的CSS代码或者JavaScript内联代码，相关的属性以及背景颜色。
 
 ## 切图
 
-![](promote.assets/fa261cadfc2be78f93a859d5783bfbee.png)
+![](./promote.assets/fa261cadfc2be78f93a859d5783bfbee.png)
 
 选中要切图的图层节点即可看到该图层节点的预览图片，点击【添加至图层列表】即可在切图列表看到该图。
 
@@ -46,47 +46,47 @@ F2C生态的[新Chrome插件](https://chromewebstore.google.com/detail/f2c/gmcgp
 
 预览模式遇到大图层文件有时候会有所卡顿，介意的同学可以关闭预览。关闭预览后点击右上角添加按钮即可添加图片到列表：
 
-![](promote.assets/5712b65f39a7914e0e51a782e7b0d2dc.png)
+![](./promote.assets/5712b65f39a7914e0e51a782e7b0d2dc.png)
 
 ### Tiny压缩
 
-![](promote.assets/898200c8d4decdcb72557aed9c53dcac.png)
+![](./promote.assets/898200c8d4decdcb72557aed9c53dcac.png)
 
 点击压缩图片按钮能看到一个弹窗让用户选择：不压缩、自定义Token、互动内部。其中选择后两项则在图片下载或者上传的时候进行自动压缩。
 
 其中选择****自定义Token****可以通过前往[tinypngtoken获取链接](https://tinify.com/developers)获取到token，每个用户每个月可以免费使用500次压缩。获取到token之后填入保存即可。
 
-![](promote.assets/b045012c72c27b4b320c3eaa83e68555.png)
+![](./promote.assets/b045012c72c27b4b320c3eaa83e68555.png)
 
 选择互动内部的话，需要用户优先登录自己的账号方可使用。
 
 # 生成代码
 
-![](promote.assets/100e13496f9a8dd18c619b2eca4b9e70.png)
+![](./promote.assets/100e13496f9a8dd18c619b2eca4b9e70.png)
 
 点击右上角的代码按钮可以生成代码，由于脱离了Figma App环境，我们需要为开发者生成一个****Figma合法Token****来访问设计稿【官方提供】。若之前未授权，点击会跳转至Figma官方授权页面，点击****Allow access****即可获得。
 
-![](promote.assets/be6f4e8e3998a4c6d4c36b8a234cb332.png)
+![](./promote.assets/be6f4e8e3998a4c6d4c36b8a234cb332.png)
 
 返回代码模块我们可以看到该图层节点的预览图，底下三个按钮分别为：下载代码文件到本地、浏览器预览代码、跳转至[Comate IDE](https://comate.baidu.com/zh/download/ai-ide)进行更多操作。
 
-![](promote.assets/39c4c1805d94ccd7718c66eb7a98db1b.png)
+![](./promote.assets/39c4c1805d94ccd7718c66eb7a98db1b.png)
 
 其中跳转到[Comate IDE](https://comate.baidu.com/zh/download/ai-ide)后会自动开启zulu帮你生成代码！非常方便！
 
-![](promote.assets/b0ac1114b3a4051e62191f958fb17a0e.png)
+![](./promote.assets/b0ac1114b3a4051e62191f958fb17a0e.png)
 
 # 工具栏
 
-![](promote.assets/6440da7b977ef641658a806340e8bcfb.png)
+![](./promote.assets/6440da7b977ef641658a806340e8bcfb.png)
 
 工具栏中有一些使用的工具供用户使用。其中
 
-![](promote.assets/b0a846d37f2a624cb658dca65472e00f%5B1%5D.png)
+![](./promote.assets/b0a846d37f2a624cb658dca65472e00f-1.png)
 
 是帮你选中深层次的节点，相当于figma快捷键Ctrl（Win）、Meta（Mac）。
 
-![](promote.assets/dc0d515c2b7eeb2df697c35b2bb38fa0.png)
+![](./promote.assets/dc0d515c2b7eeb2df697c35b2bb38fa0.png)
 
 是帮你自动启用figma测量功能，相当于figma快捷键Alt。
 
@@ -96,9 +96,9 @@ F2C生态的[新Chrome插件](https://chromewebstore.google.com/detail/f2c/gmcgp
 
 插件系统完全兼容[tempad-dev](https://chromewebstore.google.com/detail/tempad-dev/lgoeakbaikpkihoiphamaeopmliaimpc)。
 
-![](promote.assets/8e36ab1df7a01abd29a7e9f5bc97e174.png)
+![](./promote.assets/8e36ab1df7a01abd29a7e9f5bc97e174.png)
 
-![](promote.assets/19b79526b4ac66a524b8008edbafaf8a.png)
+![](./promote.assets/19b79526b4ac66a524b8008edbafaf8a.png)
 
 # 对比
 
